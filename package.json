@@ -1,5 +1,5 @@
 {
-  "name": "rollup-tutorial",
+  "name": "rollup_simple",
   "version": "1.0.0",
   "main": "./src/main.js",
   "scripts": {

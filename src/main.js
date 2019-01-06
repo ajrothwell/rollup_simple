@@ -10,4 +10,4 @@ var b = function () {
 
 // console.log(b);
 
-export default { a, b }
+export { a, b }

@@ -4,12 +4,15 @@
 	(global.rc = factory());
 }(this, (function () { 'use strict';
 
-var foo = 'hello world';
+var foo = 'foo';
 
 function main () {
-  // console.log(foo);
   return foo;
 }
+
+// export default function () {
+//   import('./foo.js').then(({ default: foo }) => return foo);
+// }
 
 return main;
 

@@ -8,5 +8,7 @@ export default {
     format: 'umd',
     name: 'rc'
   },
+  experimentalCodeSplitting: true,
+  experimentalDynamicImport: true,
   plugins: [ json() ]
 };s

@@ -1,7 +1,9 @@
 
-
-import foo from './foo';
+import foo from './foo.js';
 export default function () {
-  // console.log(foo);
   return foo;
 }
+
+// export default function () {
+//   import('./foo.js').then(({ default: foo }) => return foo);
+// }

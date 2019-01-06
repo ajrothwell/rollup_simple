@@ -115,12 +115,16 @@ fjkahskdfhasjdklfaksjdhfkasjdhfsjdaklhfasjkdlfhjsadhfjkasdhfd
 */
 var foo = 'foo';
 
-var a = function () {
+function main () {
   return foo;
-};
+}
 
-var b = function () {
-  import('./chunk-ecfddd27.js').then(({ default: bar }) => console.log(bar));
-};
+// var b = function () {
+//   import('./bar.js').then(({ default: bar }) => console.log(bar));
+// }
 
-export { a, b };
+// console.log(b);
+
+// export { a, b }
+
+export default main;

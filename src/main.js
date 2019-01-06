@@ -1,13 +1,13 @@
 
 import foo from './foo.js';
-var a = function () {
+export default function () {
   return foo;
 }
 
-var b = function () {
-  import('./bar.js').then(({ default: bar }) => console.log(bar));
-}
+// var b = function () {
+//   import('./bar.js').then(({ default: bar }) => console.log(bar));
+// }
 
 // console.log(b);
 
-export { a, b }
+// export { a, b }

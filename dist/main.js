@@ -1,3 +1,4 @@
+console.log('foo.js is running');
 var foo = 'foo';
 
 var a = function () {
@@ -5,7 +6,7 @@ var a = function () {
 };
 
 var b = function () {
-  import('./chunk-5bf2d485.js').then(({ default: bar }) => console.log(bar));
+  import('./chunk-8fbb60ae.js').then(({ default: bar }) => console.log(bar));
 };
 
 export { a, b };

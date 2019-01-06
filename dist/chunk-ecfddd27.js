@@ -113,4 +113,6 @@ fhdsakjfhdjsaklfhsdjkahfsjadklhfasjkdhfasjdkhlfsjadkhfjasdkfh
 dfkhasdjfhasjkdhfkjsadhfkjlasdhfjshadjfksahldfjhasjdhfjsdakhf
 fjkahskdfhasjdklfaksjdhfkasjdhfsjdaklhfasjkdlfhjsadhfjkasdhfd
 */
-export default 'bar';
+var bar = 'bar';
+
+export default bar;

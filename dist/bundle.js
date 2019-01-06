@@ -14,6 +14,8 @@ var b = function () {
   Promise.resolve().then(function () { return bar$1; }).then(({ default: bar }) => console.log(bar));
 };
 
+console.log(b);
+
 var bar = 'bar';
 
 

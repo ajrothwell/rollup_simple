@@ -5,7 +5,8 @@ export default {
   input: 'src/main.js',
   output: {
     file: 'bundle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'rc'
   },
   plugins: [ json() ]
 };s

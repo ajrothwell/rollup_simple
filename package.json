@@ -4,7 +4,8 @@
   "main": "bundle.js",
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "dev": "yarn build -w"
   },
   "devDependencies": {
     "rollup-plugin-json": "^3.1.0"

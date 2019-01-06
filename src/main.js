@@ -1,9 +1,11 @@
 
 import foo from './foo.js';
-export default function () {
+var a = function () {
   return foo;
 }
 
-// export default function () {
-//   import('./foo.js').then(({ default: foo }) => return foo);
-// }
+var b = function () {
+  import('./bar.js').then(({ default: bar }) => console.log(bar));
+}
+
+export { a, b }

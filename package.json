@@ -1,7 +1,7 @@
 {
   "name": "rollup_simple",
   "version": "1.0.0",
-  "main": "bundle.js",
+  "main": "dist/bundle.js",
   "license": "MIT",
   "scripts": {
     "build": "rollup -c",
